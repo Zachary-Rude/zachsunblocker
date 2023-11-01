@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>404 | Zach's Unblocker</title>
+    <meta name="description" content="Zach's Unblocker is a web proxy used to unblock websites and bypass web filters!">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
+    
+    <meta name="keywords" content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked">
+    <meta name="googlebot" content="index, follow, snippet">
+    <base href="/">
+    <link rel="stylesheet" href="index.css">
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Zach's Unblocker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A web proxy used to unblock websites and bypass web filters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I unblock sites using Zach's Unblocker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter any URL in the search box, then press Enter!"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="flex-center logo-wrapper header-center">
+      <h1>Zach's Unblocker</h1>
+    </div>
+
+    <form id="uv-form" class="flex-center">
+      <input type="hidden" id="uv-search-engine" value="https://www.google.com/search?q=%s">
+      <input id="uv-address" type="text" placeholder="Search the web freely">
+    </form>
+    <div class="flex-center desc left-margin">
+      <p>
+        Zach's Unblocker is a web proxy used to unblock websites and bypass web filters.
+      </p>
+    </div>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+    <footer>
+      <div>
+        <span>Zach's Unblocker &copy; Zachary Rude 2023</span>
+      </div>
+    </footer>
+  </body>
+</html>

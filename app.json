@@ -1,0 +1,7 @@
+{
+  "name": "Zach's Unblocker",
+  "description": "A simple Ultraviolet-based proxy/unblocker",
+  "repository": "https://github.com/titaniumnetwork-dev/Ultraviolet-App",
+  "logo": "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png",
+  "keywords": ["tomp", "ultraviolet"]
+}
